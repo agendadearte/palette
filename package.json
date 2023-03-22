@@ -1,0 +1,35 @@
+{
+  "name": "@agendadearte/palette",
+  "version": "0.0.0",
+  "description": "UI Tokens for agendadearte.com",
+  "license": "ISC",
+  "author": "Aurelio Gamero",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agendadearte/palette.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agendadearte/palette/issues"
+  },
+  "scripts": {
+    "build": "node ./lib/build.js",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "dist/tokens.json",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@divriots/style-dictionary-to-figma": "^0.4.0",
+    "style-dictionary": "^3.7.2"
+  },
+  "engines": {
+    "npm": ">=9.0.0",
+    "node": ">=18.0.0"
+  }
+}

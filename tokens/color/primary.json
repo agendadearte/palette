@@ -1,0 +1,10 @@
+{
+  "color": {
+    "primary": {
+      "light": {
+        "type": "color",
+        "value": "{color.neutral.000}"
+      }
+    }
+  }
+}

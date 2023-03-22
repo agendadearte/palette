@@ -1,0 +1,16 @@
+{
+  "variables": {
+    "color": {
+      "neutral": {
+        "hue": {
+          "type": "other",
+          "value": "200"
+        },
+        "saturation": {
+          "type": "other",
+          "value": "10%"
+        }
+      }
+    }
+  }
+}

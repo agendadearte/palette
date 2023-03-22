@@ -1,0 +1,42 @@
+{
+  "color": {
+    "neutral": {
+      "100": {
+        "type": "color",
+        "value": "hsla({variables.color.neutral.hue}, {variables.color.neutral.saturation}, 100%, 1)"
+      },
+      "095": {
+        "type": "color",
+        "value": "hsla({variables.color.neutral.hue}, {variables.color.neutral.saturation}, 95%, 1)"
+      },
+      "090": {
+        "type": "color",
+        "value": "hsla({variables.color.neutral.hue}, {variables.color.neutral.saturation}, 90%, 1)"
+      },
+      "080": {
+        "type": "color",
+        "value": "hsla({variables.color.neutral.hue}, {variables.color.neutral.saturation}, 80%, 1)"
+      },
+      "060": {
+        "type": "color",
+        "value": "hsla({variables.color.neutral.hue}, {variables.color.neutral.saturation}, 60%, 1)"
+      },
+      "040": {
+        "type": "color",
+        "value": "hsla({variables.color.neutral.hue}, {variables.color.neutral.saturation}, 40%, 1)"
+      },
+      "020": {
+        "type": "color",
+        "value": "hsla({variables.color.neutral.hue}, {variables.color.neutral.saturation}, 20%, 1)"
+      },
+      "010": {
+        "type": "color",
+        "value": "hsla({variables.color.neutral.hue}, {variables.color.neutral.saturation}, 10%, 1)"
+      },
+      "000": {
+        "type": "color",
+        "value": "hsla({variables.color.neutral.hue}, {variables.color.neutral.saturation}, 0%, 1)"
+      }
+    }
+  }
+}

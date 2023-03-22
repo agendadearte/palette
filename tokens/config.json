@@ -1,0 +1,31 @@
+{
+  "source": [
+    "tokens/**/*.json"
+  ],
+  "platforms": {
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "dist/",
+      "files": [{
+        "destination": "tokens.js",
+        "format": "javascript/es6"
+      }]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "dist/",
+      "files": [{
+        "destination": "tokens.css",
+        "format": "css/variables"
+      }]
+    },
+    "json": {
+      "transformGroup": "js",
+      "buildPath": "dist/",
+      "files": [{
+        "destination": "tokens.json",
+        "format": "figmaTokensPlugin"
+      }]
+    }
+  }
+}
