@@ -15,7 +15,7 @@
     "build": "node ./lib/build.js",
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"TODO: Pending to define test a test suite\" && exit 0"
   },
   "main": "dist/tokens.json",
   "files": [
