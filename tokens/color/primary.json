@@ -1,7 +1,15 @@
 {
   "color": {
     "primary": {
+      "base": {
+        "type": "color",
+        "value": "{color.neutral.010}"
+      },
       "light": {
+        "type": "color",
+        "value": "{color.neutral.040}"
+      },
+      "dark": {
         "type": "color",
         "value": "{color.neutral.000}"
       }

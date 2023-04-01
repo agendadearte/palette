@@ -1,0 +1,19 @@
+/**
+ * Do not edit directly
+ * Generated on Sat, 01 Apr 2023 16:20:59 GMT
+ */
+
+:root {
+  --color-neutral-100: hsla(200, 10%, 100%, 1);
+  --color-neutral-095: hsla(200, 10%, 95%, 1);
+  --color-neutral-090: hsla(200, 10%, 90%, 1);
+  --color-neutral-080: hsla(200, 10%, 80%, 1);
+  --color-neutral-060: hsla(200, 10%, 60%, 1);
+  --color-neutral-040: hsla(200, 10%, 40%, 1);
+  --color-neutral-020: hsla(200, 10%, 20%, 1);
+  --color-neutral-010: hsla(200, 10%, 10%, 1);
+  --color-neutral-000: hsla(200, 10%, 0%, 1);
+  --color-primary-base: hsla(200, 10%, 10%, 1);
+  --color-primary-light: hsla(200, 10%, 40%, 1);
+  --color-primary-dark: hsla(200, 10%, 0%, 1);
+}

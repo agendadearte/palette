@@ -1,6 +1,9 @@
 {
   "source": [
-    "tokens/**/*.json"
+    "tokens/!(variables)/**/*.json"
+  ],
+  "include": [
+    "tokens/variables/**/*.json"
   ],
   "platforms": {
     "js": {
@@ -8,7 +11,8 @@
       "buildPath": "dist/",
       "files": [{
         "destination": "tokens.js",
-        "format": "javascript/es6"
+        "format": "javascript/es6",
+        "filter": "isSource"
       }]
     },
     "css": {
@@ -16,7 +20,8 @@
       "buildPath": "dist/",
       "files": [{
         "destination": "tokens.css",
-        "format": "css/variables"
+        "format": "css/variables",
+        "filter": "isSource"
       }]
     },
     "json": {
@@ -24,7 +29,8 @@
       "buildPath": "dist/",
       "files": [{
         "destination": "tokens.json",
-        "format": "figmaTokensPlugin"
+        "format": "figmaTokensPlugin",
+        "filter": "isSource"
       }]
     }
   }
