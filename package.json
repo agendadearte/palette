@@ -14,10 +14,11 @@
   "scripts": {
     "build": "node ./lib/build.js",
     "clean": "rm -rf dist",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "npm run clean && npm run build && tsc -p tsconfig.json",
     "test": "echo \"TODO: Pending to define test a test suite\" && exit 0"
   },
   "main": "dist/tokens.js",
+  "types": "dist/tokens.d.ts",
   "files": [
     "dist"
   ],
@@ -26,7 +27,8 @@
   },
   "devDependencies": {
     "@divriots/style-dictionary-to-figma": "^0.4.0",
-    "style-dictionary": "^3.7.2"
+    "style-dictionary": "^3.7.2",
+    "typescript": "^5.0.4"
   },
   "engines": {
     "npm": ">=9.0.0",
